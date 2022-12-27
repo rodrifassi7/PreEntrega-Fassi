@@ -1,4 +1,4 @@
-import Nav from "./Nav";
+import NavBar from "./NavBar";
 
 
 
@@ -8,7 +8,7 @@ const Footer = () => {
         <footer>
             <p>Footer</p>
         
-        <Nav />
+        <NavBar />
         </footer>
     </>
    

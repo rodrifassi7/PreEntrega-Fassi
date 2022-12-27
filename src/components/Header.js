@@ -1,11 +1,15 @@
-import Nav from "./Nav";
+
+import NavBar from "./NavBar";
+
+const IsHeader = true;
+
 
 const Header = () => {
     return (
         <header>
-            <h1>titulo</h1>
-            
-            <Nav/>
+          <span className="material-icons">store</span>
+          <h3>Tienda online</h3>
+          <NavBar IsHeader = {IsHeader}/>
 
         </header>
     );
